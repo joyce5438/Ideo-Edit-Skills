@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.2-111111">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.3-111111">
   <img alt="Format" src="https://img.shields.io/badge/format-Agent%20Skill-111111">
   <img alt="Languages" src="https://img.shields.io/badge/docs-EN%20%7C%20繁中%20%7C%20简中%20%7C%20한국어-111111">
 </p>
@@ -21,11 +21,11 @@
 
 ## 版本
 
-**Ideo Edit Skills v1.2**
+**Ideo Edit Skills v1.3**
 
 目前版本建立了完整的主控架構，並包含一個主技能模組：
 
-**Editorial Quality Control Spec v1.2**
+**Editorial Quality Control Spec v1.3**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills 是一套供 AI 協助寫作與編輯使用的模組化 Skill �
 本技能把「主控調度」與「實際編寫規則」拆開：
 
 - `SKILL.md`：主控、啟動、路由、模組載入、優先級、衝突處理與驗收。
-- `references/spec-dsl.md`：給 AI 執行的 Editorial Quality Control v1.2 DSL。
+- `references/spec-dsl.md`：給 AI 執行的 Editorial Quality Control v1.3 DSL。
 - `references/spec-human.md`：人類可直接閱讀的完整規範。
 - `references/examples.md`：正反案例庫。
 - `references/regression-cases.md`：已知失敗案例與回歸防止規則。
@@ -87,7 +87,7 @@ Ideo Edit Skills 是一套供 AI 協助寫作與編輯使用的模組化 Skill �
 
 ---
 
-## 目前模組：Editorial Quality Control v1.2
+## 目前模組：Editorial Quality Control v1.3
 
 包含：
 

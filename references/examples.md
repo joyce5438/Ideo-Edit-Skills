@@ -187,3 +187,90 @@ The qualification protects a meaningful distinction between an individual restau
 - unnecessary defensive negation: keep valid distinction
 - factual integrity
 - contrast logic
+
+---
+
+## Example: Preserve a vivid personification during editing
+
+### Context
+
+Food writing. Straw fire cooks hagfish quickly, leaving a smoky impression.
+
+### Original — keep
+
+> 火焰來得快，稻草燃燒的煙味也跟著留在料理的記憶裡。
+
+### Failed edit
+
+> 火焰來得快，稻草燃燒的煙味也留在料理中。
+
+### Why
+
+The original gives the dish a memory: the personification makes the smoke's lingering presence vivid and gives the sentence an aftertaste. The edit retains the factual presence of smoke but removes that expressive effect without a material editorial benefit. The fact that a dish cannot literally remember does not make the author's established personification an invented opposition or an unsupported sensory description.
+
+### Rules
+
+- preserve author voice and expressive force
+- identify what a passage contributes before rewriting
+- minimum intervention
+- do not flatten effective personification in the name of literal clarity
+
+---
+
+## Example: Do not silently replace eating occasions with dishes
+
+### Context
+
+Food writing. The preceding sentence describes grilled fish in one coastal area and sashimi in another; it does not itself explain when or in what situations they are eaten.
+
+### Original
+
+> 相鄰海岸利用同一種魚，卻發展出不同的食用場合。
+
+### Problematic edit
+
+> 相鄰海岸以同一種魚，做出不同料理。
+
+### Why
+
+Different dishes and different eating occasions are not equivalent. The edit replaces the author's observation with a narrower claim, even though it may be better supported by the preceding examples. The original's claim about occasions also needs evidence; the two dish examples alone do not establish it.
+
+### Preferred decision
+
+If reliable context supports distinct eating occasions, retain and clarify that distinction. If support is missing, do not silently assert it: identify the evidence gap and propose a narrower sentence as a meaning-changing edit for the author to review. Do not invent occasions.
+
+### Rules
+
+- preserve semantic distinctions and uncertainty
+- identify what a passage contributes before rewriting
+- do not trade unsupported claims for silent changes in meaning
+
+---
+
+## Example: Preserve the relationship behind a conclusion
+
+### Context
+
+Food writing. The article traces eel dishes across river mouths, ports, and local restaurants. Its conclusion gathers those connections.
+
+### Original
+
+> 一桌飯便能吃出河口、海港和當地店家的不同做法。
+
+### Problematic edit
+
+> 各地的魚種和烤法各有各的滋味。
+
+### Why
+
+The original's 「一桌飯」 can be confusing when it summarizes dishes from several locations. The edit resolves that wording but replaces the relationship between places and cooking practices with a generic statement about taste. It removes the passage's function as a synthesis.
+
+### Preferred decision
+
+Clarify the scope of the comparison while preserving the connection between river mouths, ports, and the ways local restaurants prepare their dishes. Do not imply that all examples are served together or invent a causal link unsupported by the article.
+
+### Rules
+
+- identify a passage's contribution before rewriting
+- preserve the author's relationships and expressive intent
+- improve clarity without discarding a meaningful synthesis
