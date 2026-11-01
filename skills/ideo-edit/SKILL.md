@@ -110,7 +110,7 @@ Handles:
 
 `references/spec-dsl.md`
 
-Primary machine-oriented execution rules for Editorial Quality Control v1.3.
+Primary machine-oriented execution rules for Editorial Quality Control v1.4.
 
 `references/spec-human.md`
 
@@ -181,7 +181,7 @@ When modules or rules conflict, apply this order:
 3. semantic fidelity;
 4. logical integrity;
 5. preservation of uncertainty, degree, and emphasis;
-6. author voice;
+6. author voice and effective source expression, including rhythm or imagery when they convey meaning or experience;
 7. clarity and readability;
 8. structure and information density;
 9. stylistic refinement.
@@ -213,7 +213,7 @@ Identify:
 
 Determine which editorial modules apply.
 
-For the current v1.3 baseline, substantive prose editing normally routes to:
+For the current v1.4 baseline, substantive prose editing normally routes to:
 
 `references/spec-dsl.md`
 

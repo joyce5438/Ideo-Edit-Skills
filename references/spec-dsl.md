@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.3 — DSL Edition
+# Editorial Quality Control Spec v1.4 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -28,18 +28,14 @@ natural human-authored prose |
 author-consistent editorial refinement
 
 PRIORITY:
-semantic_fidelity >
-factual_integrity >
-logical_integrity >
-uncertainty_preservation >
-emphasis_preservation >
-author_voice >
-clarity >
-specificity >
-information_density >
-structure >
-rhythm >
-stylistic_polish
+1. user intent, factual and semantic integrity, logic, meaningful uncertainty
+2. preserve the source's effective expression: voice, emphasis, imagery,
+   rhythm and relationships WHEN they carry meaning or reader experience
+3. improve clarity, specificity, structure and reading flow
+4. optional stylistic polish
+
+A feature's function determines its priority, not its label: rhythm or
+metaphor may carry meaning; awkward or ineffective wording may be revised.
 ```
 
 ---
@@ -51,6 +47,7 @@ stylistic_polish
 ::HARD_CONSTRAINT{uncertainty_preservation|standard:strict}
 ::HARD_CONSTRAINT{emphasis_preservation|standard:strict}
 ::HARD_CONSTRAINT{author_intent|standard:strict}
+::HARD_CONSTRAINT{effective_source_expression|standard:preserve_function}
 
 ::QUALITY_CHECK{clarity|standard:high}
 ::QUALITY_CHECK{specificity|standard:high}
@@ -382,6 +379,10 @@ heuristic != automatic split rule
 ```text
 ::RULE{sentence_rhythm}
 
+[FIRST]
+Identify whether pace, pauses or repetition convey meaning or experience;
+preserve that function, not necessarily the exact wording.
+
 [PREFER]
 natural variation in sentence length
 
@@ -613,6 +614,8 @@ vary transition merely for lexical variety
 
 target:
 tell the reader what the section actually says
+Preserve a grounded image or metaphor when it conveys the section's central
+observation; do not mistake expressive language for an empty heading.
 
 [PRIORITY]
 content >
@@ -894,6 +897,10 @@ Identify what the passage contributes; remove the weakness without
 discarding effective detail or expressive force.
 
 [AFTER_EACH_MATERIAL_EDIT]
+Compare original and revision: what was gained, and what function, meaning,
+pace, imagery or emphasis was lost? If effective expression is weakened
+without a compensating editorial benefit, revise or restore it.
+
 read:
 previous_sentence
 edited_sentence
@@ -922,14 +929,8 @@ new unsupported claim
 ::PRIORITY_MAP
 
 P0_ABSOLUTE_PRESERVE:
-- facts
-- meaning
-- logic
-- argument
-- author intent
-- uncertainty
-- degree
-- key emphasis
+- facts, meaning, logic, argument, intent, uncertainty, degree and emphasis
+- effective source expression when it carries meaning, voice or experience
 
 P1_MUST_FIX:
 - semantic error
@@ -977,7 +978,8 @@ apply [READ] through [RECHECK_GLOBAL] to the complete draft; patch only material
 [PASS_2 — FRESH_VALIDATION]
 after PASS_1 stabilizes, re-read the complete revised article as a new review target
 apply [READ] through [RECHECK_GLOBAL] again using all existing rules and priorities
-reconsider PASS_1 judgments rather than assuming they were correct
+compare against the original and challenge PASS_1 judgments: did a detail,
+image, pace or relationship treated as removable actually serve the reader?
 check both missed weaknesses and damage introduced by edits, including openings, transitions, endings, attribution, and factual boundaries
 patch only material weaknesses; recheck any patches locally and globally
 
