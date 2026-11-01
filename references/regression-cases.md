@@ -167,3 +167,38 @@ When the source uses an explicit category, relation, function, role, or hierarch
 - minimum intervention
 - AI voice
 - no unprompted metaphorical reframing
+
+---
+
+## REG-005 — Removing one side of a meaningful contrast
+
+### Trigger
+
+An edit shortens a passage that holds two observations together, such as change and continuity, benefits and costs, or an observation and its qualification.
+
+### Source
+
+> 餐廳的原料與供應隨時間改變，地方菜也會跟著調整，但烤法與食客的記憶依然能留在街上。
+
+### Bad pattern
+
+> 餐廳的原料與供應隨時間改變，地方料理也會跟著調整。
+
+### Why it fails
+
+The edit retains change but removes continuity. The author's point is their coexistence: supply and dishes change while cooking practices and diners' memories can remain. Preserving one factual observation does not preserve the whole relationship or emphasis.
+
+### Required behavior
+
+Before removing or compressing either side, identify whether their relationship contributes to the author's meaning. If it does, preserve that relationship and the scope of both claims; rewrite or combine the wording where useful. Do not infer that every sentence with 「但」 must be kept: remove an unsupported or unnecessary contrast when the surrounding context warrants it. Do not invent evidence for either side.
+
+### Preferred example
+
+> 餐廳的原料與供應隨時間改變，地方菜也會跟著調整，但烤法與食客的記憶依然能留在街上。
+
+### Related rules
+
+- semantic and logical preservation
+- valid contrast
+- effective source expression
+- local side-effect check
