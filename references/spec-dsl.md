@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.4 — DSL Edition
+# Editorial Quality Control Spec v1.5 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -301,15 +301,6 @@ assign primary function:
 [IF]
 paragraph has no clear function
 => [RESTRUCTURE_OR_REMOVE]
-
-[IF]
-two adjacent sentences communicate same meaning
-without emphasis function
-=> [MERGE_OR_DELETE]
-
-[IF]
-paragraph-ending sentence only repeats prior content
-=> [DELETE]
 
 [IF]
 summary adds new synthesis
@@ -790,16 +781,12 @@ explain common concepts simply to make prose feel complete
 ::RULE{semantic_redundancy}
 
 [IF]
-two expressions add no distinct information
-=> [KEEP_STRONGER_ONE]
+repeated content adds no distinct information or function
+=> [MERGE_OR_DELETE]
 
 [IF]
-next sentence only paraphrases previous sentence
-=> [DELETE_OR_ADD_NEW_INFORMATION]
-
-[IF]
-repetition serves emphasis, rhythm, callback, or deliberate rhetoric
-=> [KEEP]
+repetition contributes meaning, emphasis, rhythm, or connection
+=> [PRESERVE_CONTRIBUTION]
 ```
 
 ---
