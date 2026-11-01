@@ -110,7 +110,7 @@ Handles:
 
 `references/spec-dsl.md`
 
-Primary machine-oriented execution rules for Editorial Quality Control v1.9.
+Primary machine-oriented execution rules for Editorial Quality Control v1.10.
 
 `references/spec-human.md`
 
@@ -213,7 +213,7 @@ Identify:
 
 Determine which editorial modules apply.
 
-For the current v1.9 baseline, substantive prose editing normally routes to:
+For the current v1.10 baseline, substantive prose editing normally routes to:
 
 `references/spec-dsl.md`
 

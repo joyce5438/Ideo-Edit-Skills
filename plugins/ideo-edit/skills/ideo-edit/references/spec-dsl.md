@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.9 — DSL Edition
+# Editorial Quality Control Spec v1.10 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -528,7 +528,8 @@ workflow language contains a substantive point
 => [EXPRESS_THE_POINT_IN_TERMS_OF_THE_SUBJECT]
 
 [ALWAYS]
-=> [REMOVE_WORKFLOW_FROM_TITLE_HEADINGS_AND_BODY]
+=> [REMOVE_WORKFLOW_AND_REPHRASED_WORK_LIMITATIONS_FROM_TITLE_HEADINGS_AND_BODY]
+Retain supported substantive content expressed in terms of the subject.
 
 [IF]
 the resulting claim lacks support
@@ -1047,7 +1048,7 @@ author_voice
 [ ] no invented claim
 [ ] no false opposition
 [ ] no repeated or unnecessary defensive qualifications across the full article
-[ ] workflow discussion, search, drafting and research-process limitations excluded from title, headings and body; factual limits remain intact
+[ ] workflow and rephrased work limitations excluded from title, headings and body; supported subject content and factual limits remain intact
 [ ] valid contrast preserved
 [ ] 「不是 A，而是 B」 used only when A is real and necessary
 [ ] transitions are functional and non-repetitive
