@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.0 — DSL Edition
+# Editorial Quality Control Spec v1.1 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -12,7 +12,8 @@ target:
 produce clear, specific, natural, high-information-density writing
 while preserving the author's original meaning, facts, logic,
 argument structure, emphasis, uncertainty, emotional intensity,
-and recognizable voice.
+and recognizable voice. Actively use editorial judgment and writing skill
+to bring out the source's intended meaning, progression, and expressive force.
 
 ACCEPT:
 no material editorial weakness remains across all CHECK dimensions.
@@ -138,7 +139,10 @@ WITHOUT improving reader understanding
 => [REJECT_EDIT]
 
 [PRINCIPLE]
-ability_to_rewrite != reason_to_rewrite
+Minimum intervention avoids changes without editorial value; it does not
+limit the size of a useful edit. When needed, rewrite or restructure and
+add necessary connections supported by the source, preserving its facts,
+intent, meaningful uncertainty, and voice.
 ```
 
 ---
@@ -168,6 +172,10 @@ specificity ↑ but readability ↓ => REBALANCE
 
 ```text
 ::RULE{clarity}
+
+[FOR_EACH_PASSAGE]
+identify its central observation or progression and each detail's function.
+If wording or order obscures the point, rewrite or restructure to reveal it.
 
 [FOR_EACH_SENTENCE]
 identify:
@@ -970,6 +978,8 @@ check both missed weaknesses and damage introduced by edits, including openings,
 patch only material weaknesses; recheck any patches locally and globally
 
 [DELIVERY_GATE]
+Check that the revision brings out the source's meaning and expressive force,
+as well as correcting weaknesses; no obvious error does not imply completion.
 run ::FINAL_CHECK against the result of PASS_2
 never skip PASS_2 because PASS_1 found no defects
 if a material weakness remains, repair and revalidate before delivery
