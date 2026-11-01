@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.7 — DSL Edition
+# Editorial Quality Control Spec v1.8 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -489,7 +489,7 @@ Do not treat the watchlist as banned vocabulary.
 
 [IF]
 negation clarifies a real misconception, factual boundary,
-research limitation, meaningful uncertainty, or valid argument
+meaningful uncertainty, or valid argument
 => [KEEP]
 
 [IF]
@@ -516,46 +516,19 @@ preserve meaning, facts, logic, uncertainty, emphasis, and rhythm
 ```text
 ::RULE{research_boundary_in_prose}
 
-[CONNECTS_TO]
-unnecessary_defensive_negation
-information_density
-semantic_redundancy
-ai_voice
-minimum_intervention
-factual_integrity
-uncertainty_preservation
+[EXCLUDE_COMPLETELY_FROM_ARTICLE]
+assistant-user discussion, search and drafting process,
+and all limitations of the working research process
 
-[PRINCIPLE]
-Research rigor must guide the writing.
-Not every internal research limitation needs to appear in published prose.
+[APPLY_TO]
+title, headings, and body
 
 [IF]
-a qualification prevents a material historical, factual,
-or logical misunderstanding
-=> [KEEP]
-
-[IF]
-a qualification merely warns against a generalization
-that the article never makes
-AND removing or integrating it preserves factual accuracy,
-evidence limits, and the scope of the source
-=> [REMOVE_OR_INTEGRATE_MINIMALLY]
-
-[GLOBAL_CHECK]
-Review repeated qualifications across the entire article,
-not only within individual paragraphs.
-
-[IF]
-multiple passages repeat the same defensive function
-without adding new evidence or necessary distinctions
-=> [PATCH_MINIMUM_NECESSARY]
+removal leaves a claim unsupported
+=> [REMOVE_OR_NARROW_CLAIM]
 
 [NEVER]
-- remove meaningful uncertainty or source attribution
-- imply broader evidence than sources support
-- convert individual cases into general claims
-- expose routine research cautions as prose when they do not help readers
-- replace necessary caveats with unsupported positive claims
+invent evidence or increase certainty to make prose complete
 ```
 
 ---
@@ -1067,7 +1040,7 @@ author_voice
 [ ] no invented claim
 [ ] no false opposition
 [ ] no repeated or unnecessary defensive qualifications across the full article
-[ ] research boundaries appear in prose only when materially useful to readers; factual limits remain intact
+[ ] workflow discussion, search, drafting and research-process limitations excluded from title, headings and body; factual limits remain intact
 [ ] valid contrast preserved
 [ ] 「不是 A，而是 B」 used only when A is real and necessary
 [ ] transitions are functional and non-repetitive

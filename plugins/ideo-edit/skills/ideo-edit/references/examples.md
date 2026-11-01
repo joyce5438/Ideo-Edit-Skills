@@ -153,25 +153,6 @@ A paragraph compares three regional beef soups by ingredients and preparation. N
 
 ---
 
-## Example: Keep a necessary evidence boundary
-
-### Context
-The article discusses whether chicken soup with rice can be identified as an established regional gukbap tradition. The available evidence is insufficient.
-
-### Original — keep
-> 這不是說雞肉不能進入湯飯，而是研究上應保留空白。若沒有持續的地方用語、老店師承或報導記錄，就不該為了湊齊豬、牛、雞、魚、海鮮的分類表，而把一般雞湯泡飯寫成地方湯飯。
-
-### Why
-The negation separates lack of evidence for an established regional tradition from a claim that chicken cannot be used. Removing it would weaken the research boundary. A scan hit is not an instruction to rewrite.
-
-### Rules
-- unnecessary defensive negation: keep valid qualification
-- uncertainty preservation
-- logical preservation
-- minimum intervention
-
----
-
 ## Example: Keep a boundary between restaurant invention and local tradition
 
 ### Context
