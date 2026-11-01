@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.8-111111">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.9-111111">
   <img alt="Format" src="https://img.shields.io/badge/format-Agent%20Skill-111111">
   <img alt="Languages" src="https://img.shields.io/badge/docs-EN%20%7C%20繁中%20%7C%20简中%20%7C%20한국어-111111">
 </p>
@@ -21,11 +21,11 @@
 
 ## Version
 
-**Ideo Edit Skills v1.8**
+**Ideo Edit Skills v1.9**
 
 The current version establishes the complete controller architecture and includes one primary skill module:
 
-**Editorial Quality Control Spec v1.8**
+**Editorial Quality Control Spec v1.9**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills is a modular Skill system for AI-assisted writing and editing.
 The skill separates the “controller and routing” layer from the “actual writing and editing rules”:
 
 - `SKILL.md`: controller, activation, routing, module loading, priorities, conflict handling, and acceptance.
-- `references/spec-dsl.md`: Editorial Quality Control v1.8 DSL for AI execution.
+- `references/spec-dsl.md`: Editorial Quality Control v1.9 DSL for AI execution.
 - `references/spec-human.md`: complete human-readable specification.
 - `references/examples.md`: positive and negative example library.
 - `references/regression-cases.md`: known failure cases and regression-prevention rules.
@@ -87,7 +87,7 @@ The fact that a sentence “could be written another way” does not mean it sho
 
 ---
 
-## Current module: Editorial Quality Control v1.8
+## Current module: Editorial Quality Control v1.9
 
 Includes:
 

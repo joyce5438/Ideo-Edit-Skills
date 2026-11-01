@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.8 — DSL Edition
+# Editorial Quality Control Spec v1.9 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -524,7 +524,14 @@ and all limitations of the working research process
 title, headings, and body
 
 [IF]
-removal leaves a claim unsupported
+workflow language contains a substantive point
+=> [EXPRESS_THE_POINT_IN_TERMS_OF_THE_SUBJECT]
+
+[ALWAYS]
+=> [REMOVE_WORKFLOW_FROM_TITLE_HEADINGS_AND_BODY]
+
+[IF]
+the resulting claim lacks support
 => [REMOVE_OR_NARROW_CLAIM]
 
 [NEVER]
