@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ideo-edit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A modular editorial quality control skill for AI-assisted writing and editing, optimized for Chinese writing.",
   "author": {
     "name": "joyce5438",

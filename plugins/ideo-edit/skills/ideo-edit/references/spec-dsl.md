@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.1 — DSL Edition
+# Editorial Quality Control Spec v1.2 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -888,6 +888,10 @@ edited text could have been written by any generic AI
 
 ```text
 ::RULE{local_side_effect_check}
+
+[BEFORE_REMOVING_OR_REWRITING]
+Identify what the passage contributes; remove the weakness without
+discarding effective detail or expressive force.
 
 [AFTER_EACH_MATERIAL_EDIT]
 read:
