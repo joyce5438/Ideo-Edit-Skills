@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.10-111111">
+  <img alt="Version" src="https://img.shields.io/badge/version-2.0-111111">
   <img alt="Format" src="https://img.shields.io/badge/format-Agent%20Skill-111111">
   <img alt="Languages" src="https://img.shields.io/badge/docs-EN%20%7C%20繁中%20%7C%20简中%20%7C%20한국어-111111">
 </p>
@@ -21,11 +21,11 @@
 
 ## 버전
 
-**Ideo Edit Skills v1.10**
+**Ideo Edit Skills v2.0**
 
 현재 버전은 완전한 컨트롤러 구조를 구축하고 하나의 주요 Skill 모듈을 포함합니다.
 
-**Editorial Quality Control Spec v1.10**
+**Editorial Quality Control Spec v2.0**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills는 AI를 활용한 글쓰기와 편집을 위한 모듈형 Skil
 이 Skill은 “컨트롤러 및 라우팅”과 “실제 글쓰기·편집 규칙”을 분리합니다.
 
 - `SKILL.md`: 컨트롤, 활성화, 라우팅, 모듈 로딩, 우선순위, 충돌 처리 및 검수.
-- `references/spec-dsl.md`: AI 실행용 Editorial Quality Control v1.10 DSL.
+- `references/spec-dsl.md`: AI 실행용 Editorial Quality Control v2.0 DSL.
 - `references/spec-human.md`: 사람이 직접 읽을 수 있는 전체 규격.
 - `references/examples.md`: 좋은 사례와 나쁜 사례 라이브러리.
 - `references/regression-cases.md`: 알려진 실패 사례와 회귀 방지 규칙.
@@ -87,7 +87,7 @@ Ideo Edit Skills는 AI를 활용한 글쓰기와 편집을 위한 모듈형 Skil
 
 ---
 
-## 현재 모듈: Editorial Quality Control v1.10
+## 현재 모듈: Editorial Quality Control v2.0
 
 포함 항목:
 
