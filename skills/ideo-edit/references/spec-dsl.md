@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v1.6 — DSL Edition
+# Editorial Quality Control Spec v1.7 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -473,6 +473,7 @@ uncertainty_preservation
 不是只有
 不是說
 不是在說
+沒有誰比較
 
 [ALSO_SCAN_FOR]
 negation of a claim not established in context
