@@ -4,7 +4,7 @@ description: >
   Use for editing, rewriting, proofreading, restructuring, polishing, or reviewing
   editorial prose when semantic preservation, natural human style, clear headings,
   controlled sentence length, non-formulaic transitions, anti-AI-style checks,
-  and recursive editorial quality control are required.
+  and recursive editorial review are required.
 ---
 
 # Ideo Edit
@@ -72,7 +72,7 @@ Activate this skill when the user asks to:
 - shorten or restructure long sentences;
 - improve transitions or contrast logic;
 - review writing quality without replacing the author's voice;
-- enforce the Editorial Quality Control standard;
+- enforce the Ideo Edit standard;
 - apply any future module registered under this desk.
 
 Do not activate merely because text is present.
@@ -110,7 +110,7 @@ Handles:
 
 `references/spec-dsl.md`
 
-Primary machine-oriented execution rules for Editorial Quality Control v2.0.
+Primary machine-oriented execution rules for Ideo Edit Spec v2.0.
 
 `references/spec-human.md`
 

@@ -1,7 +1,7 @@
 # Ideo Edit Skills
 
 <p align="center">
-  <strong>모듈형 AI 글쓰기 및 편집 품질 관리 시스템.</strong>
+  <strong>모듈형 AI 글쓰기 및 편집 시스템.</strong>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 현재 버전은 완전한 컨트롤러 구조를 구축하고 하나의 주요 Skill 모듈을 포함합니다.
 
-**Editorial Quality Control Spec v2.0**
+**Ideo Edit Spec v2.0**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills는 AI를 활용한 글쓰기와 편집을 위한 모듈형 Skil
 이 Skill은 “컨트롤러 및 라우팅”과 “실제 글쓰기·편집 규칙”을 분리합니다.
 
 - `SKILL.md`: 컨트롤, 활성화, 라우팅, 모듈 로딩, 우선순위, 충돌 처리 및 검수.
-- `references/spec-dsl.md`: AI 실행용 Editorial Quality Control v2.0 DSL.
+- `references/spec-dsl.md`: AI 실행용 Ideo Edit Spec v2.0 DSL.
 - `references/spec-human.md`: 사람이 직접 읽을 수 있는 전체 규격.
 - `references/examples.md`: 좋은 사례와 나쁜 사례 라이브러리.
 - `references/regression-cases.md`: 알려진 실패 사례와 회귀 방지 규칙.
@@ -87,7 +87,7 @@ Ideo Edit Skills는 AI를 활용한 글쓰기와 편집을 위한 모듈형 Skil
 
 ---
 
-## 현재 모듈: Editorial Quality Control v2.0
+## 현재 모듈: Ideo Edit Spec v2.0
 
 포함 항목:
 

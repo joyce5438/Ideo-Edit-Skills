@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v2.0 — DSL Edition
+# Ideo Edit Spec v2.0 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.

@@ -1,7 +1,7 @@
 # Ideo Edit Skills
 
 <p align="center">
-  <strong>模組化的 AI 寫作與編輯品質控制系統。</strong>
+  <strong>模組化的 AI 寫作與編輯系統。</strong>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 目前版本建立了完整的主控架構，並包含一個主技能模組：
 
-**Editorial Quality Control Spec v2.0**
+**Ideo Edit Spec v2.0**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills 是一套供 AI 協助寫作與編輯使用的模組化 Skill �
 本技能把「主控調度」與「實際編寫規則」拆開：
 
 - `SKILL.md`：主控、啟動、路由、模組載入、優先級、衝突處理與驗收。
-- `references/spec-dsl.md`：給 AI 執行的 Editorial Quality Control v2.0 DSL。
+- `references/spec-dsl.md`：給 AI 執行的 Ideo Edit Spec v2.0 DSL。
 - `references/spec-human.md`：人類可直接閱讀的完整規範。
 - `references/examples.md`：正反案例庫。
 - `references/regression-cases.md`：已知失敗案例與回歸防止規則。
@@ -87,7 +87,7 @@ Ideo Edit Skills 是一套供 AI 協助寫作與編輯使用的模組化 Skill �
 
 ---
 
-## 目前模組：Editorial Quality Control v2.0
+## 目前模組：Ideo Edit Spec v2.0
 
 包含：
 

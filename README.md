@@ -1,7 +1,7 @@
 # Ideo Edit Skills
 
 <p align="center">
-  <strong>A modular AI writing and editorial quality control system.</strong>
+  <strong>A modular AI writing and editing system.</strong>
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 
 The current version establishes the complete controller architecture and includes one primary skill module:
 
-**Editorial Quality Control Spec v2.0**
+**Ideo Edit Spec v2.0**
 
 ---
 
@@ -38,7 +38,7 @@ Ideo Edit Skills is a modular Skill system for AI-assisted writing and editing.
 The skill separates the “controller and routing” layer from the “actual writing and editing rules”:
 
 - `SKILL.md`: controller, activation, routing, module loading, priorities, conflict handling, and acceptance.
-- `references/spec-dsl.md`: Editorial Quality Control v2.0 DSL for AI execution.
+- `references/spec-dsl.md`: Ideo Edit Spec v2.0 DSL for AI execution.
 - `references/spec-human.md`: complete human-readable specification.
 - `references/examples.md`: positive and negative example library.
 - `references/regression-cases.md`: known failure cases and regression-prevention rules.
@@ -87,7 +87,7 @@ The fact that a sentence “could be written another way” does not mean it sho
 
 ---
 
-## Current module: Editorial Quality Control v2.0
+## Current module: Ideo Edit Spec v2.0
 
 Includes:
 

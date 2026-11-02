@@ -1,4 +1,4 @@
-# Editorial Quality Control Spec v2.0
+# Ideo Edit Spec v2.0
 
 > 用途：提供人類作者、編輯者與 AI 編輯工具共同遵循的文字品質規範。  
 > 核心原則：改善文字，但不改變作者真正想說的內容。
