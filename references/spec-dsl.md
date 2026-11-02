@@ -1,4 +1,4 @@
-# Ideo Edit Spec v2.0 — DSL Edition
+# Ideo Edit Spec v2.1 — DSL Edition
 
 > Purpose: operational instruction set for AI-assisted editing.  
 > Design goal: preserve meaning first, improve only where material editorial gain exists, and recursively re-check the full text after each meaningful patch.
@@ -527,6 +527,16 @@ title, headings, and body
 workflow language contains a substantive point
 => [EXPRESS_THE_POINT_IN_TERMS_OF_THE_SUBJECT]
 
+[CHECK]
+rewritten text still says what the author cannot determine
+=> [FAIL]
+=> [DELETE_THAT_LIMIT]
+=> [KEEP_SUBJECT_CONTENT_ONLY]
+
+[IF]
+work-limitation removal conflicts with minimum_intervention
+=> [REMOVE_LIMITATION]
+
 [ALWAYS]
 => [REMOVE_WORKFLOW_AND_REPHRASED_WORK_LIMITATIONS_FROM_TITLE_HEADINGS_AND_BODY]
 Retain supported substantive content expressed in terms of the subject.
@@ -908,6 +918,7 @@ P1_MUST_FIX:
 - ambiguity
 - misleading sentence
 - unnecessary false contrast
+- workflow or rephrased work limitation in title, heading, or body
 
 P2_SHOULD_FIX:
 - excessive sentence length
@@ -984,10 +995,10 @@ priority:
 2. factual_damage
 3. logical_damage
 4. uncertainty_damage
-5. clarity_problem
+5. research_boundary_in_prose
 6. false_contrast
 7. unnecessary_defensive_negation
-8. research_boundary_in_prose
+8. clarity_problem
 9. structural_weakness
 10. excessive_sentence_length
 11. semantic_redundancy
